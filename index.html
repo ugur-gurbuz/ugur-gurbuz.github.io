@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon Bağlantıları Başlangıç -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#71dfe7">
+        <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#71dfe7">
+        <!-- Favicon Bağlantıları Sonu -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- Icon Bağlantısı Başlangıç -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Icon Bağlantısı Sonu -->
+        <title>Uğur Gürbüz | Front-End Developer</title>
+    </head>
+    <body>
+        <!-- Header Başlangıç -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Uğur Gürbüz</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Ana Sayfa</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Hakkımda</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Yetenekler</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projeler</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Sonu -->
+        <main class="l-main">
+            <!-- Ana Sayfa Başlangıç -->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Merhaba,<br>Ben <span class="home__title-color">Uğur</span><br> Front-End Developer</h1>
+
+                    <a href="#" class="button">CV İndir</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://linkedin.com/in/ugur-gurbuz" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/CevirmenBey" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://github.com/ugur-gurbuz" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/home-img.png" alt="home_image">
+                </div>
+            </section>
+            <!-- Ana Sayfa Sonu -->
+
+            <!-- Hakkımda Başlangıç -->
+            <section class="about section " id="about">
+                <h2 class="section-title">Hakkımda</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about-img.jpg" alt="about_image">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Ben Uğur</h2>
+                        <p class="about__text">Merhaba, ben Uğur. Rastatt Almanya doğumlu olup, Bursa'da ikamet etmekteyim. Kendimi kısaca "Front-End Developer" olarak tanımlıyorum.
+                            Bu doğrultuda HTML-CSS ön yüz kodlamayla uğraşıyorum. Aynı zamanda güncel web teknolojilerini takip ederek,
+                            bunlara projelerimde yer vermeye çalışıyorum. Ancak özellikle önem verdiğim "Cross Browser" ve "Responsive Design" olmazsa olmazımdır.
+                            Sizinde aklınızdaki fikirleri gerçeğe dönüştürmek, web sitenizi hayata geçirmek istiyorsanız benimle iletişime geçin.</p>
+                    </div>                                   
+                </div>
+            </section>
+            <!-- Hakkımda Sonu -->
+            <!-- Yetenekler Başlangıç -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Yetenekler</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesyonel Yetenekler</h2>
+                        <p class="skills__text">Front-End Developer olarak olmazsa olmaz diyebileceğimiz yeteneklerimden bir kısmı aşağıdaki gibidir,
+                            daha fazlası için özgeçmişimi, <a href="#home">ana sayfadan</a> indirebilirsiniz.
+                        </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon' ></i>
+                                <span class="skills__name">REACT</span>
+                            </div>
+                            <div class="skills__bar skills__react">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="skills_image" class="skills__img">
+                    </div>
+                </div>
+            </section>
+            <!-- Yetenekler Sonu -->
+            <!-- Projeler Başlangıç -->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projeler</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- Projeler Sonu -->
+            <!-- İletişim Başlangıç -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">İletişim</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="İsim Soyisim" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" placeholder="Mesajınızı buraya yazabilirsiniz..." id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Gönder" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- İletişim Sonu -->
+        <!-- Footer Başlangıç -->
+        <footer class="footer">
+            <p class="footer__title">Uğur Gürbüz</p>
+            <div class="footer__social">
+                <a href="https://linkedin.com/in/ugur-gurbuz" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://instagram.com/ugurgurbuz16" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/CevirmenBey" target="_blank" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2022 Tüm Hakları Saklıdır</p>
+        </footer>
+        <!-- Footer Sonu -->
+
+        <!-- Scroll Reveal JS Dosyası -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- Main JS Dosyası -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
