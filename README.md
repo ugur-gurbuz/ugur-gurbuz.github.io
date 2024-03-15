@@ -6,4 +6,4 @@ Kişisel Web Sitesi Çalışması
 
 Herhangi bir framework kullanılmamaya özen gösterilmiştir
 
-© 2022 Uğur Gürbüz Tüm Hakları Saklıdır
+© 2024 Uğur Gürbüz Tüm Hakları Saklıdır
